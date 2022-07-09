@@ -71,10 +71,10 @@ class App extends React.Component
     {
         return(
             <div className = "container mt-4">
-                <div className ="raw">
+                <div className ="row">
                     <div className ="col-6">
                         <InfoForm myData = {this.create} setForm = {this.state.editData}/>
-                    </div><br/><br/>
+                    </div>
                     <div className ="col-6">
                         <InfoTable getData = {this.state.data} setData = {this.update} del = {this.del}/>
                     </div>
